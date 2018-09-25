@@ -18,7 +18,7 @@ end
 
 depends 'apt', '~> 5.0'
 depends 'database', '~> 6.1'
-depends 'mariadb', '~> 0.3.3'
+depends 'mariadb', '~> 1.5'
 depends 'mysql', '~> 8.2'
 depends 'yum', '~> 3.13'
 depends 'yum-epel', '~> 2.0'
