@@ -51,6 +51,8 @@ default['openstack']['common']['services'] = {
   'telemetry' => 'ceilometer',
   'telemetry_metric' => 'gnocchi',
   'application_catalog' => 'murano',
+  'application-catalog' => 'murano',
+  'container' => 'zun',
 }
 
 # Setting this to True means that database passwords and service user
