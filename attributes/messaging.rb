@@ -35,7 +35,7 @@ default['openstack']['bind_service']['mq']['interface'] = nil
 # Services to assign mq attributes for
 ###################################################################
 services = %w(bare-metal block-storage compute database dns image
-              identity telemetry network orchestration)
+              identity telemetry network orchestration container)
 
 ###################################################################
 # Generic default attributes
