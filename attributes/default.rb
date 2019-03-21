@@ -53,6 +53,7 @@ default['openstack']['common']['services'] = {
   'application_catalog' => 'murano',
   'application-catalog' => 'murano',
   'container' => 'zun',
+  'container-network' => 'kuryr',
 }
 
 # Setting this to True means that database passwords and service user
