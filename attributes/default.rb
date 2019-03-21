@@ -49,6 +49,7 @@ default['openstack']['common']['services'] = {
   'telemetry-metric' => 'gnocchi',
   'application-catalog' => 'murano',
   'container' => 'zun',
+  'container-network' => 'kuryr',
 }
 
 # Setting this to True means that database passwords and service user
